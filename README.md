@@ -1,7 +1,6 @@
 # Drivingdojo
 DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model
 
-
 ## Get Started
 Our code is based on the open-source project diffusers.
 
@@ -13,6 +12,9 @@ pip install .
 cd examples/text_to_image/
 pip install -r requirements.txt
 ```
+
+### Download the pretrained model
+Huggingface: [img2video_1024_14f](https://huggingface.co/Yuqi1997/DrivingWorldModel/tree/main/img2video_1024_14f)
 
 ### inference
 ```bash
