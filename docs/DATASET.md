@@ -8,10 +8,46 @@
 
 ## DrivingDojo Dataset
 
+Download the DrivingDojo dataset from the huggingface website: [DrivingDojo](https://huggingface.co/datasets/Yuqi1997/DrivingDojo). Due to size limitations, the videos are split across multiple repositories, such as DrivingDojo-Extra1, DrivingDojo-Extra2, and so on.
+Totally there are 45 tar.gz files, each containing about 400 videos. 
+
+```bash
+
+The dataset structure is as follows:
+- DrivingDojo
+  - videos
+    - video1
+    - video2
+    - ...
+  - action_info
+    - video1
+    - video2
+    - ...
+  - camera_info_extrinsic_and_intrinsic
+    - video1
+    - video2
+    - ...
+  - meta.json
+```
+
+### 1. video generation
+```bash
+cd diffusers/examples/world_model/data_process/drivingdojo
+
+python generate.py --path /path/to/drivingdojo/videos --save_path /path/to/drivingdojo_all.pkl --min_frames 30
+```
+
+### 2. action-conditioned video generation
+```bash
+cd diffusers/examples/world_model/data_process/drivingdojo
+
+python generate_action.py --json_path /path/to/drivingdojo/meta.json --root /path/to/drivingdojo --output_pkl /path/to/drivingdojo_all_action.pkl --min_frames 30
+```
 
 ## nuScenes Dataset
 Download the nuScenes dataset from the official website: [nuScenes](https://www.nuscenes.org/)
 
+### 1. video generation
 ```bash
 cd diffuers
 # Extract 12Hz images from the nuScenes dataset
@@ -21,6 +57,8 @@ python examples/world_model/data_process/pickle_generation.py --video_path /path
 ```
 
 ## Waymo Dataset
+
+### 1. video generation
 ```bash
 cd diffuers
 
