@@ -5,7 +5,7 @@ The official implementation of the paper:
 **DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model**
 > [Yuqi Wang](https://robertwyq.github.io/), Ke Cheng, [Jiawei He](https://jiaweihe.com/), Qitai Wang, Hengchen Dai, Yuntao Chen, Fei Xia, and [Zhaoxiang Zhang](https://zhaoxiangzhang.net/)
 >
-> 🎬 [video demos](https://drivingdojo.github.io/) 📖 [dataset](https://huggingface.co/datasets/Yuqi1997/DrivingDojo)
+> 📑 [paper](https://arxiv.org/abs/2410.10738) 🎬 [video demos](https://drivingdojo.github.io/) 📖 [dataset](https://huggingface.co/datasets/Yuqi1997/DrivingDojo) 📢[zhihu](https://zhuanlan.zhihu.com/p/1551246719)
 
 ## 🚀 News
 - [2024-10] Our dataset DrivingDojo is released on Huggingface.
