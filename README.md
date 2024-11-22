@@ -7,9 +7,16 @@ The official implementation of the paper:
 >
 > 📑 [paper](https://arxiv.org/abs/2410.10738) 🎬 [video demos](https://drivingdojo.github.io/) 📖 [dataset](https://huggingface.co/datasets/Yuqi1997/DrivingDojo) 📢[zhihu](https://zhuanlan.zhihu.com/p/1551246719)
 
+<div id="top" align="center">
+<p align="left">
+<image src="assets/dojo2.gif" width="500px" >
+</p>
+</div>
+
 ## 🚀 News
-- [2024-10] Our dataset DrivingDojo is released on Huggingface.
-- [2024-9] Our paper is accepted by NeurIPS 2024.
+- [2024-11] The code is support finetuned Stable Video Diffusion on multiple driving dataset.
+- [2024-10] Our dataset DrivingDojo is released on **Huggingface**.
+- [2024-9] Our paper is accepted by **NeurIPS 2024**.
 
 
 ## 🕹️ Getting Started
