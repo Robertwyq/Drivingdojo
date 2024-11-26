@@ -27,6 +27,7 @@ The following table shows the supported finetuned methods and datasets in this r
 | Method / Dataset      | DrivingDojo | nuScenes | Waymo | OpenDV2K |
 |-----------------------|-------|------------|------|-------------|
 | Stable Video Diffusion  |   ✓   |      ✓     |   ✓    |            |
+| Action-Conditioned Video Generation |   ✓   |           |       |            |
 
 
 ### 📦 Installation
