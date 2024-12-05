@@ -14,6 +14,7 @@ The official implementation of the paper:
 </div>
 
 ## 🚀 News
+- [2024-12] We release the code for computing the AIF metric.
 - [2024-11] The code is support finetuned Stable Video Diffusion on multiple driving dataset.
 - [2024-10] Our dataset DrivingDojo is released on **Huggingface**.
 - [2024-9] Our paper is accepted by **NeurIPS 2024**.
@@ -35,6 +36,7 @@ The following table shows the supported finetuned methods and datasets in this r
 - [Dataset](docs/DATASET.md)
 - [Training](docs/TRAINING.md)
 - [Inference](docs/INFERENCE.md)
+- [AIF Metric](docs/AIF.md)
 
 ## 🌟Citation
 if you find our work useful in your research, please consider citing:

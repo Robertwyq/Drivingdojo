@@ -11,6 +11,7 @@
 Download the DrivingDojo dataset from the huggingface website: [DrivingDojo](https://huggingface.co/datasets/Yuqi1997/DrivingDojo). Due to size limitations, the videos are split across multiple repositories, such as DrivingDojo-Extra1, DrivingDojo-Extra2, and so on.
 Totally there are 45 tar.gz files, each containing about 400 videos. 
 
+The subset of the dataset (action, interplay, open) is in data/dojo_subset.json.
 ```bash
 
 The dataset structure is as follows:
